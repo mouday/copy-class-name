@@ -2,7 +2,7 @@
   "name": "copy-class-name",
   "displayName": "copy-class-name",
   "description": "copy class name",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "mouday",
   "engines": {
     "vscode": "^1.80.0"
