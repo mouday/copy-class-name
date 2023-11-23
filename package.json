@@ -3,6 +3,7 @@
   "displayName": "copy-class-name",
   "description": "copy class name",
   "version": "0.0.1",
+  "publisher": "mouday",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -36,7 +37,8 @@
     "lint": "eslint .",
     "pretest": "pnpm run lint",
     "test": "node ./test/runTest.js",
-    "package": "pnpm vsce package --no-dependencies"
+    "package": "pnpm vsce package --no-dependencies",
+    "publish": "pnpm vsce publish"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.3",
