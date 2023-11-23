@@ -1,7 +1,7 @@
 {
   "name": "copy-class-name",
-  "displayName": "copy-class-name",
-  "description": "copy class name",
+  "displayName": "Copy Class Name",
+  "description": "copy class name for html vue react",
   "version": "0.0.5",
   "publisher": "mouday",
   "icon": "./img/logo.png",
