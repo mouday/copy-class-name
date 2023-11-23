@@ -13,6 +13,14 @@ github代码地址：https://github.com/mouday/copy-class-name
 示例
 
 ```html
+<div class="test">
+    <div class="text-children"></div>
+</div>
+```
+
+或者
+
+```html
 <div className="test">
     <div className="text-children"></div>
 </div>
