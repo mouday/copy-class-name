@@ -4,7 +4,7 @@ const vscode = require("vscode");
 const copyClass = require("./copy-class.js");
 
 function activate(context) {
-  vscode.window.showInformationMessage("插件成功激活!");
+  // vscode.window.showInformationMessage("插件成功激活!");
   // context.subscriptions.push(message);
   // context.subscriptions.push(navigation);
   context.subscriptions.push(copyClass);

@@ -7,6 +7,13 @@
   "engines": {
     "vscode": "^1.80.0"
   },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "pnpm run lint",
+    "test": "npx jest",
+    "package": "pnpm vsce package --no-dependencies",
+    "publish": "vsce publish patch --no-dependencies"
+  },
   "repository": "repository",
   "categories": [
     "Other"
@@ -33,13 +40,7 @@
       ]
     }
   },
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "pnpm run lint",
-    "test": "node ./test/runTest.js",
-    "package": "pnpm vsce package --no-dependencies",
-    "publish": "vsce publish patch --no-dependencies"
-  },
+
   "devDependencies": {
     "@types/mocha": "^10.0.3",
     "@types/node": "18.x",
