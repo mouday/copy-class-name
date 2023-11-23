@@ -1,5 +1,7 @@
 # copy-class-name README
 
+插件地址：https://marketplace.visualstudio.com/items?itemName=mouday.copy-class-name
+
 复制Vue和React中HTML代码的类名，实现快速复制
 
 打包

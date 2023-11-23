@@ -38,7 +38,7 @@
     "pretest": "pnpm run lint",
     "test": "node ./test/runTest.js",
     "package": "pnpm vsce package --no-dependencies",
-    "publish": "pnpm vsce publish"
+    "publish": "vsce publish patch --no-dependencies"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.3",
