@@ -2,7 +2,7 @@
   "name": "copy-class-name",
   "displayName": "copy-class-name",
   "description": "copy class name",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "mouday",
   "icon": "./img/logo.png",
   "engines": {
