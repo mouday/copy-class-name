@@ -2,7 +2,7 @@
   "name": "copy-class-name",
   "displayName": "copy-class-name",
   "description": "copy class name",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "mouday",
   "engines": {
     "vscode": "^1.80.0"
@@ -40,7 +40,6 @@
       ]
     }
   },
-
   "devDependencies": {
     "@types/mocha": "^10.0.3",
     "@types/node": "18.x",
