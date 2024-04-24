@@ -6,7 +6,7 @@
   "publisher": "mouday",
   "icon": "./img/logo.png",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.70.0"
   },
   "scripts": {
     "lint": "eslint .",
@@ -50,7 +50,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.3",
     "@types/node": "18.x",
-    "@types/vscode": "^1.80.0",
+    "@types/vscode": "^1.70.0",
     "@vscode/test-electron": "^2.3.6",
     "@vscode/vsce": "^2.22.0",
     "eslint": "^8.52.0",
