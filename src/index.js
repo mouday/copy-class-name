@@ -4,6 +4,8 @@ const vscode = require("vscode");
 const copyClass = require("./copy-class.js");
 
 function activate(context) {
+  // console.log('插件已经被激活');
+
   // vscode.window.showInformationMessage("插件成功激活!");
   // context.subscriptions.push(message);
   // context.subscriptions.push(navigation);

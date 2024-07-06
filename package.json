@@ -2,7 +2,7 @@
   "name": "copy-class-name",
   "displayName": "Copy Class Name",
   "description": "copy class name for html vue react",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "publisher": "mouday",
   "icon": "./img/logo.png",
   "engines": {
@@ -26,8 +26,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:javascript",
-    "onLanguage:typescript"
+    "onCommand:copy-class-name.copy"
   ],
   "main": "./src/index.js",
   "contributes": {
